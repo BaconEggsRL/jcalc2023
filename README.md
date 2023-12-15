@@ -9,17 +9,21 @@ jcalc is a calculator written in Java. This project began as a school assignment
 This .jar file is ran in the browser using cheerpj:
 https://labs.leaningtech.com/cheerpj3
 
-cheerpj will only run locally on a web server (cannot just double click index.html and have it work.)
+cheerpj will only run locally on a web server (cannot just double click index.html and have it work.)\
 So follow the steps below to set up a local web server:
 
 Install node.js and npm (npx), then verify installation through the command line:
+
+```
 node -v
 npm -v
+```
 
 Open a local html server in same folder as your index.html (and .jar file):
+
+```
 npx http-server -p 8080
+```
 
-Then go to
-http://localhost:8080
-
+Then go to "http://localhost:8080" in your web browser.\
 And the .jar file should load (may take a while as this uses a free version of cheerpj.)
